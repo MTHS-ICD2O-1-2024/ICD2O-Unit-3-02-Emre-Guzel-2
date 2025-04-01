@@ -11,7 +11,7 @@ function volumeOfPyramid() {
   const LENGTH_Of_PYRAMID = parseFloat(document.getElementById("length-of-pyramid").value)
   const WIDTH_OF_PYRAMID = parseFloat (document.getElementById("width-of-pyramid").value)
   const HEIGHT_OF_PYRAMID = parseFloat (document.getElementById("height-of-pyramid").value)
-  const volumeOfPyramid = (baseAOfTrapizoid + baseBOfTrapizoid) /3
+  const volumeOfPyramid = (LENGTH_Of_PYRAMID * WIDTH_OF_PYRAMID * HEIGHT_OF_PYRAMID) /3
   // clacualtoins 
-  document.getElementById("area").innerHTML ="Area is: " + volumeOfPyramid + "mm²"
+  document.getElementById("Volume").innerHTML ="Volume is is: " + volumeOfPyramid + " " + " mm³"
 }
