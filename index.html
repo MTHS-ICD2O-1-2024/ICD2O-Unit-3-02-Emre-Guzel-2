@@ -37,14 +37,14 @@
     <form action="#">
     <div class="mdl-textfield mdl-js-textfield" id="base-a">
       <p class="base-a"> Length:</p> 
-      <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="length-of-pyramid">
+      <input type="number" step=".01"  class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="length-of-pyramid">
       <label class="mdl-textfield__label" for="base-a-of-trapizoid"></label>
       <span >mm</span>
       <span class="mdl-textfield__error">Input is not a number!</span>
     </div>
     <div class="mdl-textfield mdl-js-textfield" id="base-b" >
       <p class="base-a">Width: </p>
-      <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="width-of-pyramid">
+      <input  type="number" step=".01"  class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="width-of-pyramid">
       <label class="mdl-textfield__label" for="base-b-of-trapizoid"></label>
       <span>mm</span>
       <br>
@@ -52,7 +52,7 @@
     </div>
       <div class="mdl-textfield mdl-js-textfield" id="height">
         <p class="base-a"> Height:</p>
-        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="height-of-pyramid">
+        <input type="number" step=".01"  class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="height-of-pyramid">
         <label class="mdl-textfield__label" for="height-of-the-trapizoid"></label>
         <span >mm</span>
         <span class="mdl-textfield__error">Input is not a number!</span>
@@ -69,7 +69,7 @@
 
   </div>
   <br>
-  <img class="Calculate" src="images/area_of_trinagle.png" alt="Formula of rectengle">
+  <img class="Calculate" src="images/pyramid.png" alt="Formula of rectengle">
 </body>
 
 </html>
